@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: ReKV
+Version: 1.0
+Summary: ReKV: Streaming Video Question-Answering With In-Context Video KV-Cache Retrieval.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.10
+Requires-Dist: accelerate>=1.4.0
+Requires-Dist: decord
+Requires-Dist: flash-attn
+Requires-Dist: httpx==0.23.3
+Requires-Dist: imgcat
+Requires-Dist: kaggle
+Requires-Dist: logzero
+Requires-Dist: matplotlib
+Requires-Dist: ninja
+Requires-Dist: openai==1.57.1
+Requires-Dist: optree>=0.14.0
+Requires-Dist: pandas
+Requires-Dist: seaborn
