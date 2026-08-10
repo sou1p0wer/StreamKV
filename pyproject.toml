@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ReKV"
+name = "StreamKV"
 version = "1.0"
-description = "ReKV: Streaming Video Question-Answering With In-Context Video KV-Cache Retrieval."
+description = "StreamKV: Streaming Video Question-Answering with Segment-based KV Cache Retrieval and Compression."
 requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -13,6 +13,7 @@ classifiers = [
 ]
 dependencies = [
     "accelerate>=1.4.0",
+    "av",
     "decord",
     "flash-attn",
     "httpx==0.23.3",

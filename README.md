@@ -1,112 +1,72 @@
-# ReKV
+# StreamKV
 
-Official PyTorch code of "Streaming Video Question-Answering with In-context Video KV-Cache Retrieval", *ICLR* 2025.
+Official PyTorch code of "StreamKV: Streaming Video Question-Answering with Segment-based KV Cache Retrieval and Compression".
 
 ## Abstract
 
-We propose **ReKV**, a novel, training-free approach that integrates seamlessly with existing Video Large Language Models (Video-LLMs) to enable efficient streaming video question-answering (**StreamingVQA**).
+Video Large Language Models (Video-LLMs) have demonstrated significant potential in the areas of video captioning, search, and summarization. However, current Video-LLMs still face challenges with long real-world videos. Recent methods have introduced a retrieval mechanism that retrieves query-relevant KV caches for question answering, enhancing the efficiency and accuracy of long real-world videos. However, the compression and retrieval of KV caches are still not fully explored. In this paper, we propose **StreamKV**, a training-free framework that seamlessly equips Video-LLMs with advanced KV cache retrieval and compression. Compared to previous methods that used uniform partitioning, StreamKV dynamically partitions video streams into semantic segments, which better preserves semantic information. For KV cache retrieval, StreamKV calculates a summary vector for each segment to retain segment-level information essential for retrieval. For KV cache compression, StreamKV introduces a guidance prompt designed to capture the key semantic elements within each segment, ensuring only the most informative KV caches are retained for answering questions. Moreover, StreamKV unifies KV cache retrieval and compression within a single module, performing both in a layer-adaptive manner, thereby further improving the effectiveness of streaming video question answering. In summary, our main contributions are as follows:
 
-Traditional VideoQA systems struggle with long videos, as they must process the entire video before responding to queries, and repeat this process for each new question. In contrast, our approach analyzes long videos in a streaming fashion, allowing for prompt responses as soon as user queries are received. 
-- Building on a common Video-LLM, we first incorporate a sliding-window attention mechanism, ensuring that input frames attend to a limited number of preceding frames, thereby reducing computational overhead.
-- To prevent information loss, we store processed video key-value caches (KV-Caches) in RAM and disk, reloading them into GPU memory as needed. 
-- Additionally, we introduce a retrieval method that leverages an external retriever or the parameters within Video-LLMs to retrieve only query-relevant KV-Caches, ensuring both efficiency and accuracy in question answering.
-
-ReKV enables the separation of video analyzing and question-answering across different processes and GPUs, significantly enhancing the efficiency of StreamingVQA. 
-Through comprehensive experimentation, we validate the efficacy and practicality of our approach, which significantly boosts efficiency and enhances applicability over existing VideoQA models.
+- We propose StreamKV, a training-free framework that seamlessly equips Video-LLMs with advanced KV cache retrieval and compression.
+- To better preserve the semantic continuity of video content, StreamKV adopts a semantic partitioning and summary vector mechanism. This approach facilitates both subsequent compression and retrieval.
+- To enable KV cache compression in streaming scenarios, we introduce a guidance prompt to capture key semantic elements within each segment, ensuring essential information is retained even under aggressive compression.
+- To further improve KV cache retrieval and compression, we propose a Unified Layer-Adaptive KV Selection Module that allocates the selection budget optimally across transformer layers, maximizing informative content under a fixed total budget.
 
 ## Directory Structure
 
 ```
 .
-├── data        processed benchmarks
-├── model       code for integrating ReKV with various Video-LLMs
-├── model_zoo   pretrained Video-LLM checkpoints
-├── results     evaluation results
-└── video_qa    code for StreamingVQA & OfflineVQA
+├── data/streamingbench   converted StreamingBench annotations + the convert script
+├── model                 StreamKV integration with Video-LLMs (LLaVA-OV)
+├── model_zoo/            pretrained Video-LLM checkpoints (download; empty placeholder)
+├── results/              evaluation results (empty placeholder)
+└── video_qa              StreamingVQA & OfflineVQA solvers + scorers
 ```
 
 ## Preparation
 
-Our setup: Ubuntu 22.04, CUDA 12.6, 8x Nvidia H800 (80GB)
+Our setup: 8x NVIDIA H20 (96GB) GPUs.
 
-- Clone this repo: `git clone https://github.com/Becomebright/ReKV.git`
+- Clone this repo: `git clone https://github.com/sou1p0wer/StreamKV.git`
 - Prepare the conda environment: `bash prepare.sh`
 - Download pretrained Video-LLMs under `model_zoo/`
   - [llava-onevision-qwen2-0.5b-ov-hf](https://huggingface.co/llava-hf/llava-onevision-qwen2-0.5b-ov-hf)
   - [llava-onevision-qwen2-7b-ov-hf](https://huggingface.co/llava-hf/llava-onevision-qwen2-7b-ov-hf)
   - [llava-onevision-qwen2-72b-ov-hf](https://huggingface.co/llava-hf/llava-onevision-qwen2-72b-ov-hf)
-  - [LongVA-7B](https://huggingface.co/lmms-lab/LongVA-7B)
-  - [Video-LLaVA-7B-hf](https://huggingface.co/LanguageBind/Video-LLaVA-7B-hf)
 - Download benchmarks under `data/`
-  - [MLVU-dev-mc](https://huggingface.co/datasets/MLVU/MVLU)
-  - [QAEgo4D-test-mc](https://huggingface.co/datasets/Becomebright/QAEgo4D-MC-test/tree/main)
-  - [EgoSchema-full](https://huggingface.co/datasets/lmms-lab/egoschema)
-  - [ActivityNet-QA](https://huggingface.co/datasets/lmms-lab/ActivityNetQA)
-  - [RVS](https://huggingface.co/datasets/Becomebright/RVS)
-  - [CGBench](https://huggingface.co/datasets/CG-Bench/CG-Bench)
-  - The `data/` folder should be arranged as:
+  - **StreamingBench** — clone the official repo into `data/streamingbench/StreamingBench/`, then (re)generate the StreamKV-format annotations from the repo root:
+    ```bash
+    python data/streamingbench/convert_streambench_stream_to_streamkv.py
     ```
-    data
-    ├── activitynet_qa
-    │   ├── test.json
-    │   └── videos
-    ├── cgbench
-    │   ├── full_mc.json
-    │   └── videos
-    ├── egoschema
-    │   ├── full.json
-    │   └── videos
-    ├── mlvu
-    │   ├── dev_debug_mc.json
-    │   └── videos
-    ├── qaego4d
-    │   ├── test_mc.json
-    │   └── videos
-    └── rvs
-        ├── ego
-        │   ├── ego4d_oe.json
-        │   └── videos
-        └── movie
-            ├── movienet_oe.json
-            └── videos
-    ```
-- Increases the memory map limit for processes (needed for offloading KV-Caches): `sudo sysctl -w vm.max_map_count=262144`
+    This reads `data/streamingbench/StreamingBench/src/data/questions_*.json` and writes `data/streamingbench/question_{omni,real,sqa,proactive}_streamkv_online.json` with repo-relative `video_path`s.
+- Increase the memory-map limit for processes (needed for offloading KV-Caches): `sudo sysctl -w vm.max_map_count=262144`
 
 ## Evaluation
 
+`run_eval.py` dispatches to one `eval_<dataset>()` per dataset, spawning `num_chunks` parallel processes (one GPU each; `llava_ov_72b` uses 4 GPUs/chunk → set `num_chunks = #GPUs // 4`).
+
+- **Models**: `llava_ov_0.5b`, `llava_ov_7b`, `llava_ov_72b`
+- **Datasets**: `streamingbench_omni`, `streamingbench_real`, `streamingbench_sqa`, `streamingbench_proactive`
+
+Run an evaluation with the canonical config via the ready wrapper:
+
 ```bash
-# The number of processes utilized for parallel evaluation.
-# Normally, set it to the number of GPUs on your machine.
-# Yet, llava_ov_72b needs 4x 80GB GPUs. So set num_chunks to num_gpus//4.
-num_chunks=8
-
-# Supported model: llava_ov_0.5b llava_ov_7b llava_ov_72b video_llava_7b longva_7b
-model=llava_ov_0.5b
-
-# Supported dataset: qaego4d egoschema cgbench mlvu activitynet_qa rvs_ego rvs_movie
-# MLVU has an extremely long video (~9hr). Remove it in the annotation file if your system doesn't have enough RAM.
-dataset=qaego4d
-
-python -m video_qa.run_eval \
-    --num_chunks $num_chunks \
-    --model ${model} \
-    --dataset ${dataset} \
-    --sample_fps 0.5 \
-    --n_local 15000 \
-    --retrieve_size 64
+bash run_eval.sh
 ```
 
 ## Citation
 
-```latex
-@inproceedings{di2025rekv,
-  title={Streaming Video Question-Answering with In-context Video KV-Cache Retrieval},
-  author={Di, Shangzhe and Yu, Zhelun and Zhang, Guanghao and Li, Haoyuan and Cheng, Hao and Li, Bolin and He, Wanggui and Shu, Fangxun and Jiang, Hao and others},
-  booktitle={ICLR},
-  year={2025}
+```bibtex
+@misc{chen2025streamkvstreamingvideoquestionanswering,
+      title={StreamKV: Streaming Video Question-Answering with Segment-based KV Cache Retrieval and Compression},
+      author={Yilong Chen and Xiang Bai and Zhibin Wang and Chengyu Bai and Yuhan Dai and Ming Lu and Shanghang Zhang},
+      year={2025},
+      eprint={2511.07278},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.07278}
 }
 ```
 
 ## Acknowledgements
 
-Our code is based on [InfLLM](https://github.com/thunlp/InfLLM), [StreamingLLM](https://github.com/mit-han-lab/streaming-llm), and [Flash-VStream](https://github.com/IVGSZ/Flash-VStream).
+Our code is based on [ReKV](https://github.com/Becomebright/ReKV).

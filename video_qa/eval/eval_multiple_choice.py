@@ -74,7 +74,7 @@ else:
     metrics = ['qa_acc']
 
 for metric in metrics:
-    calc_average_metric(results, args.save_dir, metric)# vmin=0, vmax=100)
+    calc_average_metric(results, args.save_dir, metric)
 
 if 'pred_choice' in df.columns:
     n_errors = 0

@@ -1,4 +1,4 @@
 from .rope import RotaryEmbeddingESM
-from .rekv_attention import rekv_attention_forward
+from .streamkv_attention import streamkv_attention_forward
 
-__all__ = ["RotaryEmbeddingESM", "rekv_attention_forward"]
+__all__ = ["RotaryEmbeddingESM", "streamkv_attention_forward"]

@@ -1,9 +1,8 @@
 import torch
 from transformers.models.qwen2.modeling_qwen2 import Qwen2RotaryEmbedding
 
-from model.attention import RotaryEmbeddingESM, rekv_attention_forward
+from model.attention import RotaryEmbeddingESM, streamkv_attention_forward
 
-#这段代码定义了一个装饰器 huggingface_forward，用于修改前向传播方法。这个装饰器接受一个函数 forward 作为参数，并返回一个新的函数 hf_forward
 def huggingface_forward(forward):
     def hf_forward(
         self,
@@ -22,7 +21,6 @@ def huggingface_forward(forward):
             self.q_proj, self.k_proj, self.v_proj, self.o_proj, 
             self.head_dim, self.num_heads, self.num_key_value_heads
         )
-        #print(f'num_heads{self.num_heads}, num_key_value_heads{self.num_key_value_heads}')
         if use_cache:
             o, pkv = ret
         else:
@@ -42,7 +40,7 @@ def patch_hf(
     **kwargs
 ):
     attn_kwargs.update(kwargs)
-    # This approach lacks scalability and will be refactored.
+
     from transformers import LlamaForCausalLM, MistralForCausalLM, Qwen2ForCausalLM, Qwen2Model
     from transformers.models.llama.modeling_llama import LlamaAttention, LlamaModel, BaseModelOutputWithPast
 
@@ -68,18 +66,17 @@ def patch_hf(
 
         return_dict = return_dict if return_dict is not None else self.config.use_return_dict
 
-        # retrieve input_ids and inputs_embeds
         if input_ids is not None and inputs_embeds is not None:
             encode_prompt_embs = self.embed_tokens(input_ids)
             if hasattr(self, "config") and hasattr(self.config, "scale_emb"):
                 encode_prompt_embs = encode_prompt_embs * self.config.scale_emb
             inputs_embeds = torch.cat((inputs_embeds, encode_prompt_embs), dim=-2)
-            batch_size, seq_length, _ = inputs_embeds.shape #(1, Nv*196+encode_prompt, D)
+            batch_size, seq_length, _ = inputs_embeds.shape
             
         elif input_ids is not None:
             batch_size, seq_length = input_ids.shape
         elif inputs_embeds is not None:
-            batch_size, seq_length, _ = inputs_embeds.shape  #(1, Nv*196, D)
+            batch_size, seq_length, _ = inputs_embeds.shape
         else:
             raise ValueError("You have to specify either decoder_input_ids or decoder_inputs_embeds")
 
@@ -96,14 +93,13 @@ def patch_hf(
 
         hidden_states = inputs_embeds
 
-        # decoder layers
         all_hidden_states = () if output_hidden_states else None
         all_self_attns = () if output_attentions else None
 
         for i, decoder_layer in enumerate(self.layers):
             if output_hidden_states:
                 all_hidden_states += (hidden_states,)
-            layer_outputs = decoder_layer( #对应forward
+            layer_outputs = decoder_layer(
                 hidden_states,
                 attention_mask=attention_mask,
                 position_ids=self.position_bias,
@@ -123,7 +119,6 @@ def patch_hf(
 
         hidden_states = self.norm(hidden_states)
 
-        # add hidden states from the last decoder layer
         if output_hidden_states:
             all_hidden_states += (hidden_states,)
 
@@ -136,7 +131,7 @@ def patch_hf(
             attentions=all_self_attns,
         )
 
-    forward = huggingface_forward(rekv_attention_forward(**attn_kwargs)) #attention层的forward函数 注意和model_forward进行区分
+    forward = huggingface_forward(streamkv_attention_forward(**attn_kwargs))
 
     if isinstance(model, LlamaForCausalLM):
         Attention = model.model.layers[0].self_attn.__class__

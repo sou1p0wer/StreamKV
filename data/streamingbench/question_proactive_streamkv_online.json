@@ -1,0 +1,3740 @@
+[
+  {
+    "video_id": "sample_17_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_17_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 3 points for USA, output \"3\".",
+        "answer": "3",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 29,
+        "ground_truth_output": "3",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_17_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_17_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 20 points for Serbia, output \"20\".",
+        "answer": "20",
+        "start_time": 174,
+        "end_time": 204,
+        "ground_truth_time": 178,
+        "ground_truth_output": "20",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_17_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_17_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 40 points first time for Serbia, output \"40\".",
+        "answer": "40",
+        "start_time": 348,
+        "end_time": 378,
+        "ground_truth_time": 347,
+        "ground_truth_output": "40",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_17_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_17_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 73 points first time for USA, output \"73\".",
+        "answer": "73",
+        "start_time": 522,
+        "end_time": 552,
+        "ground_truth_time": 532,
+        "ground_truth_output": "73",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_17_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_17_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 97 points first time for USA, output \"97\".",
+        "answer": "97",
+        "start_time": 696,
+        "end_time": 726,
+        "ground_truth_time": 712,
+        "ground_truth_output": "97",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_32_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_32_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the four of hearts appears on the table, output \"four of hearts\".",
+        "answer": "four of hearts",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 16,
+        "ground_truth_output": "four of hearts",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_32_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_32_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer collects all the cards from the table, output \"Cards collected\".",
+        "answer": "Cards collected",
+        "start_time": 156,
+        "end_time": 166,
+        "ground_truth_time": 165,
+        "ground_truth_output": "Cards collected",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_32_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_32_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer collects all the cards from the table, output \"Cards collected\".",
+        "answer": "Cards collected",
+        "start_time": 312,
+        "end_time": 322,
+        "ground_truth_time": 317,
+        "ground_truth_output": "Cards collected",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_32_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_32_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer finishes clearing the cards from the table, output \"Cards cleared\".",
+        "answer": "Cards cleared",
+        "start_time": 468,
+        "end_time": 478,
+        "ground_truth_time": 472,
+        "ground_truth_output": "Cards cleared",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_32_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_32_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer collects all the cards from the table, output \"Cards collected\".",
+        "answer": "Cards collected",
+        "start_time": 624,
+        "end_time": 634,
+        "ground_truth_time": 629,
+        "ground_truth_output": "Cards collected",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_42_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_42_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the Columbus Crew lineup is shown, output \"Columbus Crew lineup displayed\".",
+        "answer": "Columbus Crew lineup displayed",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 9,
+        "ground_truth_output": "Columbus Crew lineup displayed",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_42_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_42_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the yellow shirt scored a goal, output \"goal\".",
+        "answer": "goal",
+        "start_time": 84,
+        "end_time": 94,
+        "ground_truth_time": 70,
+        "ground_truth_output": "goal",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_42_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_42_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the red jersey takes a corner kick, output \"Corner kick by red team\".",
+        "answer": "Corner kick by red team",
+        "start_time": 168,
+        "end_time": 178,
+        "ground_truth_time": 152,
+        "ground_truth_output": "Corner kick by red team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_42_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_42_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the red jersey scores a goal, output \"Goal by red team\".",
+        "answer": "Goal by red team",
+        "start_time": 252,
+        "end_time": 262,
+        "ground_truth_time": 252,
+        "ground_truth_output": "Goal by red team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_42_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_42_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the goalkeeper makes a save, output \"Save by goalkeeper\".",
+        "answer": "Save by goalkeeper",
+        "start_time": 336,
+        "end_time": 346,
+        "ground_truth_time": 341,
+        "ground_truth_output": "Save by goalkeeper",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_49_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_49_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player strikes the cue ball, output \"Cue Ball Struck\".",
+        "answer": "Cue Ball Struck",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 11,
+        "ground_truth_output": "Cue Ball Struck",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_49_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_49_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the referee starts to adjust the cue ball, output \"adjust Ball\".",
+        "answer": "adjust Ball",
+        "start_time": 125,
+        "end_time": 155,
+        "ground_truth_time": 134,
+        "ground_truth_output": "adjust Ball",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_49_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_49_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score changes from 56 to 57, output \"Score Changed\".",
+        "answer": "Score Changed",
+        "start_time": 250,
+        "end_time": 280,
+        "ground_truth_time": 272,
+        "ground_truth_output": "Score Changed",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_49_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_49_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the cue ball touches the red ball, output \"Red Touched\".",
+        "answer": "Red Touched",
+        "start_time": 375,
+        "end_time": 405,
+        "ground_truth_time": 393,
+        "ground_truth_output": "Red Touched",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_49_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_49_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the cue ball hits the black ball, output \"Black Hit\".",
+        "answer": "Black Hit",
+        "start_time": 500,
+        "end_time": 530,
+        "ground_truth_time": 517,
+        "ground_truth_output": "Black Hit",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_48_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_48_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the red ball is hit by the cue ball, output \"red Hit\".",
+        "answer": "red Hit",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 3,
+        "ground_truth_output": "red Hit",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_48_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_48_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player pots a red ball, output \"Red Potted\".",
+        "answer": "Red Potted",
+        "start_time": 143,
+        "end_time": 173,
+        "ground_truth_time": 153,
+        "ground_truth_output": "Red Potted",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_48_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_48_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the cue ball is struck, output \"Cue Ball Struck\".",
+        "answer": "Cue Ball Struck",
+        "start_time": 286,
+        "end_time": 316,
+        "ground_truth_time": 298,
+        "ground_truth_output": "Cue Ball Struck",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_48_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_48_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the cue ball hits the black ball, output \"Black Hit\".",
+        "answer": "Black Hit",
+        "start_time": 429,
+        "end_time": 459,
+        "ground_truth_time": 435,
+        "ground_truth_output": "Black Hit",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_48_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_48_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the cue ball hits the black ball, output \"Black Hit\".",
+        "answer": "Black Hit",
+        "start_time": 572,
+        "end_time": 602,
+        "ground_truth_time": 560,
+        "ground_truth_output": "Black Hit",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_38_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_38_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a red 6 card is played, output \"red 6\".",
+        "answer": "red 6",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 16,
+        "ground_truth_output": "red 6",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_38_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_38_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a blue 2 card is played, output \"blue 2\".",
+        "answer": "blue 2",
+        "start_time": 43,
+        "end_time": 53,
+        "ground_truth_time": 50,
+        "ground_truth_output": "blue 2",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_38_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_38_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a green 4 card is played, output \"green 4\".",
+        "answer": "green 4",
+        "start_time": 86,
+        "end_time": 96,
+        "ground_truth_time": 104,
+        "ground_truth_output": "green 4",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_38_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_38_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a red 4 card is played, output \"red 4\".",
+        "answer": "red 4",
+        "start_time": 129,
+        "end_time": 139,
+        "ground_truth_time": 136,
+        "ground_truth_output": "red 4",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_38_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_38_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a yellow 0 card is played later, output \"yellow 0\".",
+        "answer": "yellow 0",
+        "start_time": 172,
+        "end_time": 182,
+        "ground_truth_time": 179,
+        "ground_truth_output": "yellow 0",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_28_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_28_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer places the cards on the table to start the game, output \"Game Start\".",
+        "answer": "Game Start",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 43,
+        "ground_truth_output": "Game Start",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_28_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_28_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer collects all the cards from the table later, output \"Cards collected\".",
+        "answer": "Cards collected",
+        "start_time": 119,
+        "end_time": 129,
+        "ground_truth_time": 125,
+        "ground_truth_output": "Cards collected",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_28_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_28_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the ten of hearts appears on the table later, output \"ten of hearts\".",
+        "answer": "ten of hearts",
+        "start_time": 238,
+        "end_time": 248,
+        "ground_truth_time": 245,
+        "ground_truth_output": "ten of hearts",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_28_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_28_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer reveals an Ace on the table, output \"Ace revealed\".",
+        "answer": "Ace revealed",
+        "start_time": 357,
+        "end_time": 367,
+        "ground_truth_time": 361,
+        "ground_truth_output": "Ace revealed",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_28_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_28_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer collects all the cards from the table, output \"Cards collected\".",
+        "answer": "Cards collected",
+        "start_time": 476,
+        "end_time": 486,
+        "ground_truth_time": 485,
+        "ground_truth_output": "Cards collected",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_36_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_36_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the box flap is fully opened, output \"box open\".",
+        "answer": "box open",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 10,
+        "ground_truth_output": "box open",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_36_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_36_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a wild card with the text \"Take 3 Miss Turn\" is shown later, output \"wild card take 3 miss turn\".",
+        "answer": "wild card take 3 miss turn",
+        "start_time": 60,
+        "end_time": 70,
+        "ground_truth_time": 60,
+        "ground_truth_output": "wild card take 3 miss turn",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_36_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_36_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a wild draw four card is played, output \"wild draw four\".",
+        "answer": "wild draw four",
+        "start_time": 120,
+        "end_time": 130,
+        "ground_truth_time": 125,
+        "ground_truth_output": "wild draw four",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_36_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_36_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a yellow 9 card is played, output \"yellow 9\".",
+        "answer": "yellow 9",
+        "start_time": 180,
+        "end_time": 190,
+        "ground_truth_time": 189,
+        "ground_truth_output": "yellow 9",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_36_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_36_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a green 8 card is played, output \"green 8\".",
+        "answer": "green 8",
+        "start_time": 240,
+        "end_time": 250,
+        "ground_truth_time": 249,
+        "ground_truth_output": "green 8",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_50_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_50_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player makes the first shot, output \"First Shot Taken.\"",
+        "answer": "First Shot Taken",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 36,
+        "ground_truth_output": "First Shot Taken",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_50_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_50_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the cue ball hits the black ball, output \"black Hit\".",
+        "answer": "black Hit",
+        "start_time": 130,
+        "end_time": 160,
+        "ground_truth_time": 138,
+        "ground_truth_output": "black Hit",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_50_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_50_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Selby reaches a score of 56, output \"Selby 56\".",
+        "answer": "Selby 56",
+        "start_time": 260,
+        "end_time": 290,
+        "ground_truth_time": 284,
+        "ground_truth_output": "Selby 56",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_50_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_50_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player pots the black ball, output \"Black Potted\".",
+        "answer": "Black Potted",
+        "start_time": 390,
+        "end_time": 420,
+        "ground_truth_time": 417,
+        "ground_truth_output": "Black Potted",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_50_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_50_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player pots the red ball, output \"Red Potted\".",
+        "answer": "Red Potted",
+        "start_time": 520,
+        "end_time": 550,
+        "ground_truth_time": 531,
+        "ground_truth_output": "Red Potted",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_27_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_27_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer starts shuffling the cards later, output \"Shuffling cards\".",
+        "answer": "Shuffling cards",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 8,
+        "ground_truth_output": "Shuffling cards",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_27_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_27_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the five of hearts appears on the table later, output \"five of hearts\".",
+        "answer": "five of hearts",
+        "start_time": 150,
+        "end_time": 160,
+        "ground_truth_time": 154,
+        "ground_truth_output": "five of hearts",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_27_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_27_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When four cards appear on the table at the same time, output 'four cards'.",
+        "answer": "four cards",
+        "start_time": 300,
+        "end_time": 310,
+        "ground_truth_time": 304,
+        "ground_truth_output": "four cards",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_27_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_27_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer starts collecting chips from the table, output \"Collecting chips\".",
+        "answer": "Collecting chips",
+        "start_time": 450,
+        "end_time": 460,
+        "ground_truth_time": 456,
+        "ground_truth_output": "Collecting chips",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_27_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_27_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer reveals a ten of spades on the table, output \"ten of spades\".",
+        "answer": "ten of spades",
+        "start_time": 600,
+        "end_time": 610,
+        "ground_truth_time": 602,
+        "ground_truth_output": "ten of spades",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_43_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_43_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the white and green jersey scores a goal, output \"Goal by white team\".",
+        "answer": "Goal by white team",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 16,
+        "ground_truth_output": "Goal by white team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_43_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_43_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the green jersey fouls the player in the purple jersey, output \"Foul by green team\".",
+        "answer": "Foul by green team",
+        "start_time": 83,
+        "end_time": 93,
+        "ground_truth_time": 82,
+        "ground_truth_output": "Foul by green team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_43_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_43_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the purple jersey scores a goal, output \"Goal by dark team\".",
+        "answer": "Goal by dark team",
+        "start_time": 166,
+        "end_time": 176,
+        "ground_truth_time": 118,
+        "ground_truth_output": "Goal by dark team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_43_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_43_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the purple jersey scores a goal, output \"Goal by blue team\".",
+        "answer": "Goal by blue team",
+        "start_time": 249,
+        "end_time": 259,
+        "ground_truth_time": 228,
+        "ground_truth_output": "Goal by blue team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_43_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_43_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the white and green jersey scores a goal, output \"Goal by white team\".",
+        "answer": "Goal by white team",
+        "start_time": 332,
+        "end_time": 342,
+        "ground_truth_time": 302,
+        "ground_truth_output": "Goal by white team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_4_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_4_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the red ball is hit and starts moving, output \"Yellow ball\".",
+        "answer": "Yellow ball",
+        "start_time": 0,
+        "end_time": 20,
+        "ground_truth_time": 44,
+        "ground_truth_output": "Yellow ball",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_4_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_4_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the red ball is hit and starts moving, output \"Yellow ball\".",
+        "answer": "Yellow ball",
+        "start_time": 144,
+        "end_time": 164,
+        "ground_truth_time": 157,
+        "ground_truth_output": "Yellow ball",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_4_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_4_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the break score reaches 56, output \"Break 56\".",
+        "answer": "Break 56",
+        "start_time": 288,
+        "end_time": 308,
+        "ground_truth_time": 306,
+        "ground_truth_output": "Break 56",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_4_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_4_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in black vest appears with a cue in his right hand, output \"Cue\".",
+        "answer": "Cue",
+        "start_time": 432,
+        "end_time": 452,
+        "ground_truth_time": 447,
+        "ground_truth_output": "Cue",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_4_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_4_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score of Higgins displays as 120 points right now, output \"120\".",
+        "answer": "120",
+        "start_time": 576,
+        "end_time": 596,
+        "ground_truth_time": 591,
+        "ground_truth_output": "120",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_19_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_19_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows \"30-40\" for Fils later, output \"Fils Break Point\".",
+        "answer": "Fils Break Point",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 14,
+        "ground_truth_output": "Fils Break Point",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_19_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_19_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 40-15 for Zverev later, output \"40-15\".",
+        "answer": "40-15",
+        "start_time": 98,
+        "end_time": 128,
+        "ground_truth_time": 148,
+        "ground_truth_output": "40-15",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_19_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_19_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard first shows \"4 AD\" for Zverev later, output \"4 AD\".",
+        "answer": "4 AD",
+        "start_time": 196,
+        "end_time": 226,
+        "ground_truth_time": 213,
+        "ground_truth_output": "4 AD",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_19_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_19_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows \"5 AD\" for Fils later, output \"Fils Break Point\".",
+        "answer": "Fils Break Point",
+        "start_time": 294,
+        "end_time": 324,
+        "ground_truth_time": 376,
+        "ground_truth_output": "Fils Break Point",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_19_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_19_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Fils wins the game later, output \"Fils Wins\".",
+        "answer": "Fils Wins",
+        "start_time": 392,
+        "end_time": 422,
+        "ground_truth_time": 453,
+        "ground_truth_output": "Fils Wins",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_22_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_22_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 15 for Sinner and 30 for Rublev in the video later, output \"15-30\".",
+        "answer": "15-30",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 24,
+        "ground_truth_output": "15-30",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_22_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_22_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 15 for Sinner and 30 for Rublev in the video later, output \"15-30\".",
+        "answer": "15-30",
+        "start_time": 104,
+        "end_time": 134,
+        "ground_truth_time": 170,
+        "ground_truth_output": "15-30",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_22_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_22_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 40 - 40 later, output \"40 - 40\".",
+        "answer": "6-2",
+        "start_time": 208,
+        "end_time": 238,
+        "ground_truth_time": 270,
+        "ground_truth_output": "6-2",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_22_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_22_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 15 for ARNALDI and 40 for NISHIKORI in the video later, output \"15-40\".",
+        "answer": "0-0",
+        "start_time": 312,
+        "end_time": 342,
+        "ground_truth_time": 357,
+        "ground_truth_output": "0-0",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_22_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_22_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows AD for ARNALDI in the video later, output \"ARNALDI AD\".",
+        "answer": "ARNALDI AD",
+        "start_time": 416,
+        "end_time": 446,
+        "ground_truth_time": 456,
+        "ground_truth_output": "ARNALDI AD",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_18_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_18_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 30 points first time for Michelsen, output \"30\".",
+        "answer": "30",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 10,
+        "ground_truth_output": "30",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_18_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_18_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 30 points for Giron for the first time, output \"30\".",
+        "answer": "30",
+        "start_time": 146,
+        "end_time": 176,
+        "ground_truth_time": 152,
+        "ground_truth_output": "30",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_18_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_18_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Alex Michelsen wins the match, output \"Alex wins\".",
+        "answer": "Alex wins",
+        "start_time": 292,
+        "end_time": 322,
+        "ground_truth_time": 306,
+        "ground_truth_output": "Alex wins",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_18_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_18_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard first shows that GIRON has scored AD later, output 'AD'.",
+        "answer": "40",
+        "start_time": 438,
+        "end_time": 468,
+        "ground_truth_time": 452,
+        "ground_truth_output": "40",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_18_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_18_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard first shows that Giron has scored 40 points later, output '40'.",
+        "answer": "40",
+        "start_time": 584,
+        "end_time": 614,
+        "ground_truth_time": 600,
+        "ground_truth_output": "40",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_9_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_9_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for Murphy changes to 0, output \"Murphy 0\".",
+        "answer": "Murphy 0",
+        "start_time": 0,
+        "end_time": 20,
+        "ground_truth_time": 13,
+        "ground_truth_output": "Murphy 0",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_9_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_9_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for Murphy changes to 17, output \"17\".",
+        "answer": "17",
+        "start_time": 161,
+        "end_time": 181,
+        "ground_truth_time": 176,
+        "ground_truth_output": "17",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_9_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_9_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for Murphy reaches 48, output \"48\".",
+        "answer": "48",
+        "start_time": 322,
+        "end_time": 342,
+        "ground_truth_time": 329,
+        "ground_truth_output": "48",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_9_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_9_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for Murphy changes to 80, output \"80\".",
+        "answer": "80",
+        "start_time": 483,
+        "end_time": 503,
+        "ground_truth_time": 497,
+        "ground_truth_output": "80",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_9_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_9_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Shaun Murphy's score changes to 113 for the first time right now, output \"113\".",
+        "answer": "1113",
+        "start_time": 644,
+        "end_time": 664,
+        "ground_truth_time": 678,
+        "ground_truth_output": "1113",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_25_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_25_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the Queen of spades appears on the table later, output \"Queen of spades\".",
+        "answer": "Queen of spades",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 13,
+        "ground_truth_output": "Queen of spades",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_25_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_25_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer starts collecting cards from the table, output \"Dealer collecting\".",
+        "answer": "Dealer collecting",
+        "start_time": 200,
+        "end_time": 230,
+        "ground_truth_time": 208,
+        "ground_truth_output": "Dealer collecting",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_25_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_25_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer collects all the cards from the table later, output \"Cards collected\".",
+        "answer": "Cards collected",
+        "start_time": 400,
+        "end_time": 430,
+        "ground_truth_time": 417,
+        "ground_truth_output": "Cards collected",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_25_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_25_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the total of a player's hand reaches 39, output \"Player 39\".",
+        "answer": "Player 39",
+        "start_time": 600,
+        "end_time": 630,
+        "ground_truth_time": 612,
+        "ground_truth_output": "Player 39",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_25_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_25_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer reveals a 10 of Diamonds, output \"10 of Diamonds.\"",
+        "answer": "10 of Diamonds",
+        "start_time": 800,
+        "end_time": 830,
+        "ground_truth_time": 819,
+        "ground_truth_output": "10 of Diamonds",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_39_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_39_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a player picks up the Uno deck for distributing, output \"distributing\".",
+        "answer": "distributing",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 9,
+        "ground_truth_output": "distributing",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_39_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_39_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a red +2 card is played, output \"red +2\".",
+        "answer": "red +2",
+        "start_time": 76,
+        "end_time": 86,
+        "ground_truth_time": 79,
+        "ground_truth_output": "red +2",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_39_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_39_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a yellow skip card is played later, output \"yellow skip\".",
+        "answer": "yellow skip",
+        "start_time": 152,
+        "end_time": 162,
+        "ground_truth_time": 161,
+        "ground_truth_output": "yellow skip",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_39_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_39_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a yellow reverse card is played later, output \"yellow reverse\".",
+        "answer": "yellow reverse",
+        "start_time": 228,
+        "end_time": 238,
+        "ground_truth_time": 233,
+        "ground_truth_output": "yellow reverse",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_39_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_39_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a red 2 card is played, output \"red 2\".",
+        "answer": "red 2",
+        "start_time": 304,
+        "end_time": 314,
+        "ground_truth_time": 306,
+        "ground_truth_output": "red 2",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_12_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_12_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Jordan Brown drinks from the red cup, output \"Cup Drink\".",
+        "answer": "Cup Drink",
+        "start_time": 0,
+        "end_time": 20,
+        "ground_truth_time": 13,
+        "ground_truth_output": "Cup Drink",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_12_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_12_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for Robertson changes to 16, output \"16\".",
+        "answer": "16",
+        "start_time": 161,
+        "end_time": 181,
+        "ground_truth_time": 175,
+        "ground_truth_output": "16",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_12_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_12_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Robertson's score changes to 48, output \"48\".",
+        "answer": "48",
+        "start_time": 322,
+        "end_time": 342,
+        "ground_truth_time": 338,
+        "ground_truth_output": "48",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_12_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_12_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for Robertson changes to 80, output \"80\".",
+        "answer": "80",
+        "start_time": 483,
+        "end_time": 503,
+        "ground_truth_time": 498,
+        "ground_truth_output": "80",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_12_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_12_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When N Robertson's score changes to 113, output \"113\".",
+        "answer": "113",
+        "start_time": 644,
+        "end_time": 664,
+        "ground_truth_time": 658,
+        "ground_truth_output": "113",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_5_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_5_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the white ball is hit, output \"White Hit\".",
+        "answer": "White Hit",
+        "start_time": 0,
+        "end_time": 20,
+        "ground_truth_time": 17,
+        "ground_truth_output": "White Hit",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_5_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_5_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Robertson's score turns to 29, output \"29\".",
+        "answer": "29",
+        "start_time": 167,
+        "end_time": 187,
+        "ground_truth_time": 185,
+        "ground_truth_output": "29",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_5_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_5_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the red ball is hit, output \"Red Hit\"",
+        "answer": "Red Hit",
+        "start_time": 334,
+        "end_time": 354,
+        "ground_truth_time": 343,
+        "ground_truth_output": "Red Hit",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_5_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_5_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for ROBERTSON changes from 84 to 85, output \"85\".",
+        "answer": "85",
+        "start_time": 501,
+        "end_time": 521,
+        "ground_truth_time": 514,
+        "ground_truth_output": "85",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_5_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_5_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for Robertson changes to 124, output \"124\".",
+        "answer": "124",
+        "start_time": 668,
+        "end_time": 688,
+        "ground_truth_time": 680,
+        "ground_truth_output": "124",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_41_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_41_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the blue 9 card is played later, output \"blue 9\".",
+        "answer": "blue 9",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 38,
+        "ground_truth_output": "blue 9",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_41_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_41_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the red 8 card is played, output \"red 8\".",
+        "answer": "red 8",
+        "start_time": 55,
+        "end_time": 65,
+        "ground_truth_time": 64,
+        "ground_truth_output": "red 8",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_41_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_41_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a blue reverse card is played, output \"blue reverse\".",
+        "answer": "blue reverse",
+        "start_time": 110,
+        "end_time": 120,
+        "ground_truth_time": 113,
+        "ground_truth_output": "blue reverse",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_41_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_41_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a blue 3 card is played, output \"blue 3\".",
+        "answer": "blue 3",
+        "start_time": 165,
+        "end_time": 175,
+        "ground_truth_time": 186,
+        "ground_truth_output": "blue 3",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_41_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_41_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a yellow 9 card is played, output \"yellow 9\".",
+        "answer": "yellow 9",
+        "start_time": 220,
+        "end_time": 230,
+        "ground_truth_time": 229,
+        "ground_truth_output": "yellow 9",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_31_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_31_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the Ace of diamonds appears on the table, output \"Ace of diamonds\".",
+        "answer": "Ace of diamonds",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 33,
+        "ground_truth_output": "Ace of diamonds",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_31_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_31_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer collects all the cards from the table, output \"Cards collected\".",
+        "answer": "Cards collected",
+        "start_time": 87,
+        "end_time": 97,
+        "ground_truth_time": 92,
+        "ground_truth_output": "Cards collected",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_31_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_31_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer collects all the cards from the table later, output \"Cards collected\".",
+        "answer": "Cards collected",
+        "start_time": 174,
+        "end_time": 184,
+        "ground_truth_time": 183,
+        "ground_truth_output": "Cards collected",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_31_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_31_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer collects all the cards from the table, output \"Cards collected\".",
+        "answer": "Cards collected",
+        "start_time": 261,
+        "end_time": 271,
+        "ground_truth_time": 267,
+        "ground_truth_output": "Cards collected",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_31_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_31_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the Queen of diamonds appears on the table, output \"Queen of diamonds\".",
+        "answer": "Queen of diamonds",
+        "start_time": 348,
+        "end_time": 358,
+        "ground_truth_time": 352,
+        "ground_truth_output": "Queen of diamonds",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_14_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_14_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When France's score changes to 9 for the first time, output \"9\".",
+        "answer": "9",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 15,
+        "ground_truth_output": "9",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_14_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_14_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the French team scores a point, output \"goal\".",
+        "answer": "goal",
+        "start_time": 37,
+        "end_time": 67,
+        "ground_truth_time": 60,
+        "ground_truth_output": "goal",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_14_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_14_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for France changes to 51, output \"51\".",
+        "answer": "51",
+        "start_time": 74,
+        "end_time": 104,
+        "ground_truth_time": 92,
+        "ground_truth_output": "51",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_14_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_14_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the USA team score updates to 96, output \"USA 96\".",
+        "answer": "USA 96",
+        "start_time": 111,
+        "end_time": 141,
+        "ground_truth_time": 128,
+        "ground_truth_output": "USA 96",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_14_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_14_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When James was awarded the gold medal by the presenter, output \"Gold\".",
+        "answer": "Gold",
+        "start_time": 148,
+        "end_time": 178,
+        "ground_truth_time": 169,
+        "ground_truth_output": "Gold",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_35_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_35_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a yellow card is drawn later, output \"yellow card\".",
+        "answer": "yellow card",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 24,
+        "ground_truth_output": "yellow card",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_35_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_35_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a green 1 card is played, output \"green 1\".",
+        "answer": "green 1",
+        "start_time": 172,
+        "end_time": 182,
+        "ground_truth_time": 182,
+        "ground_truth_output": "green 1",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_35_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_35_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a green 5 card is played later, output \"green 5\".",
+        "answer": "green 5",
+        "start_time": 344,
+        "end_time": 354,
+        "ground_truth_time": 348,
+        "ground_truth_output": "green 5",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_35_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_35_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a player begins a new game by distributing the cards, output \"start new game\".",
+        "answer": "start new game",
+        "start_time": 516,
+        "end_time": 526,
+        "ground_truth_time": 522,
+        "ground_truth_output": "start new game",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_35_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_35_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a green 8 card is played later, output \"green 8\".",
+        "answer": "green 8",
+        "start_time": 688,
+        "end_time": 698,
+        "ground_truth_time": 721,
+        "ground_truth_output": "green 8",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_24_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_24_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows AD for Shelton later, output \"Shelton AD\".",
+        "answer": "Shelton AD",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 39,
+        "ground_truth_output": "Shelton AD",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_24_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_24_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 40 for ALBOT and 30 for SHELTON in the video later, output \"40-30\".",
+        "answer": "40-30",
+        "start_time": 144,
+        "end_time": 174,
+        "ground_truth_time": 172,
+        "ground_truth_output": "40-30",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_24_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_24_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 40 points for Rublev, output \"40\".",
+        "answer": "40",
+        "start_time": 288,
+        "end_time": 318,
+        "ground_truth_time": 345,
+        "ground_truth_output": "40",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_24_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_24_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 30 points for MICHELSEN, output \"30\".",
+        "answer": "30",
+        "start_time": 432,
+        "end_time": 462,
+        "ground_truth_time": 508,
+        "ground_truth_output": "30",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_24_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_24_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 40 points for KHACHANOV, output \"40\".",
+        "answer": "40",
+        "start_time": 576,
+        "end_time": 606,
+        "ground_truth_time": 620,
+        "ground_truth_output": "40",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_3_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_3_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When R. O'Sullivan pots the first ball in the video, output \"First ball potted\".",
+        "answer": "First ball potted",
+        "start_time": 0,
+        "end_time": 20,
+        "ground_truth_time": 5,
+        "ground_truth_output": "First ball potted",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_3_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_3_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score on the green scoreboard changes to 25, output \"Score is 25\".",
+        "answer": "Score is 25",
+        "start_time": 101,
+        "end_time": 121,
+        "ground_truth_time": 118,
+        "ground_truth_output": "Score is 25",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_3_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_3_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Ronnie O'Sullivan pockets the black ball, output \"Pocketed Black\".",
+        "answer": "Pocketed Black",
+        "start_time": 202,
+        "end_time": 222,
+        "ground_truth_time": 220,
+        "ground_truth_output": "Pocketed Black",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_3_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_3_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the green cue ball is about to be hit by the stick right now, output \"Green Cue Ball\".",
+        "answer": "Green Cue Ball",
+        "start_time": 303,
+        "end_time": 323,
+        "ground_truth_time": 318,
+        "ground_truth_output": "Green Cue Ball",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_3_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_3_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score changes to 122 in the video, output \"122\".",
+        "answer": "122",
+        "start_time": 404,
+        "end_time": 424,
+        "ground_truth_time": 412,
+        "ground_truth_output": "122",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_23_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_23_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows AD for BORGES in the video later, output \"BORGES AD\".",
+        "answer": "BORGES AD",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 24,
+        "ground_truth_output": "BORGES AD",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_23_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_23_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Nadal wins the point against Borges later, output \"Nadal wins this point\".",
+        "answer": "Nadal wins thi point",
+        "start_time": 97,
+        "end_time": 127,
+        "ground_truth_time": 110,
+        "ground_truth_output": "Nadal wins thi point",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_23_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_23_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 30 points for Borges, output \"30 Borges\".",
+        "answer": "30 Borges",
+        "start_time": 194,
+        "end_time": 224,
+        "ground_truth_time": 169,
+        "ground_truth_output": "30 Borges",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_23_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_23_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Borges wins a point later, output \"Borges Point\".",
+        "answer": "Borges Point",
+        "start_time": 291,
+        "end_time": 321,
+        "ground_truth_time": 363,
+        "ground_truth_output": "Borges Point",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_23_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_23_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 40 for Borges and 30 for Nadal in the video later, output \"40-30\".",
+        "answer": "40-30",
+        "start_time": 388,
+        "end_time": 418,
+        "ground_truth_time": 381,
+        "ground_truth_output": "40-30",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_8_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_8_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for Bingham changes to 1, output \"1\".",
+        "answer": "1",
+        "start_time": 0,
+        "end_time": 20,
+        "ground_truth_time": 9,
+        "ground_truth_output": "1",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_8_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_8_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Bingham's score changes to 24, output \"24\".",
+        "answer": "24",
+        "start_time": 144,
+        "end_time": 164,
+        "ground_truth_time": 163,
+        "ground_truth_output": "24",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_8_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_8_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the black ball is struck, output \"Black Strike\".",
+        "answer": "Yellow Strike",
+        "start_time": 288,
+        "end_time": 308,
+        "ground_truth_time": 291,
+        "ground_truth_output": "Yellow Strike",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_8_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_8_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Bingham's break score changes to 88, output \"88\".",
+        "answer": "88",
+        "start_time": 432,
+        "end_time": 452,
+        "ground_truth_time": 448,
+        "ground_truth_output": "88",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_8_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_8_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for Bingham changes to 113, output \"113\".",
+        "answer": "113",
+        "start_time": 576,
+        "end_time": 596,
+        "ground_truth_time": 593,
+        "ground_truth_output": "113",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_6_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_6_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player takes the shot with the cue ball, output \"Cue Ball Shot\".",
+        "answer": "Cue Ball Shot",
+        "start_time": 0,
+        "end_time": 20,
+        "ground_truth_time": 6,
+        "ground_truth_output": "Cue Ball Shot",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_6_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_6_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player strikes the cue ball, output \"Cue Ball Struck.\"",
+        "answer": "Cue Ball Struck",
+        "start_time": 166,
+        "end_time": 186,
+        "ground_truth_time": 185,
+        "ground_truth_output": "Cue Ball Struck",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_6_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_6_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score changes to 41, output \"41\".",
+        "answer": "41",
+        "start_time": 332,
+        "end_time": 352,
+        "ground_truth_time": 337,
+        "ground_truth_output": "41",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_6_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_6_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for Fu changes to 80, output \"80\".",
+        "answer": "80",
+        "start_time": 498,
+        "end_time": 518,
+        "ground_truth_time": 508,
+        "ground_truth_output": "80",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_6_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_6_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the cue ball is hit, output \"Cue Ball Hit\".",
+        "answer": "Cue Ball Hit",
+        "start_time": 664,
+        "end_time": 684,
+        "ground_truth_time": 688,
+        "ground_truth_output": "Cue Ball Hit",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_13_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_13_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 2 points for USA, output \"2 points\".",
+        "answer": "2 points",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 26,
+        "ground_truth_output": "2 points",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_13_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_13_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 23 points for South Sudan, output \"23 points\".",
+        "answer": "23 points",
+        "start_time": 151,
+        "end_time": 181,
+        "ground_truth_time": 160,
+        "ground_truth_output": "23 points",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_13_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_13_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 52 points for South Sudan, output \"52\".",
+        "answer": "52",
+        "start_time": 302,
+        "end_time": 332,
+        "ground_truth_time": 309,
+        "ground_truth_output": "52",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_13_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_13_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the USA team scored a three-pointer., output \"+3\".",
+        "answer": "+3",
+        "start_time": 453,
+        "end_time": 483,
+        "ground_truth_time": 460,
+        "ground_truth_output": "+3",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_13_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_13_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When USA reaches a score of 95, output \"95\".",
+        "answer": "95",
+        "start_time": 604,
+        "end_time": 634,
+        "ground_truth_time": 619,
+        "ground_truth_output": "95",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_15_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_15_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the Serbian player scores a three-pointer, output \"Three-pointer Serbia\".",
+        "answer": "Three-pointer Serbia",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 8,
+        "ground_truth_output": "Three-pointer Serbia",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_15_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_15_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 37 points for the USA, output \"37\".",
+        "answer": "37",
+        "start_time": 36,
+        "end_time": 66,
+        "ground_truth_time": 39,
+        "ground_truth_output": "37",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_15_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_15_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the USA player scores a three-pointer, output \"Three-pointer USA\".",
+        "answer": "Three-pointer USA",
+        "start_time": 72,
+        "end_time": 102,
+        "ground_truth_time": 91,
+        "ground_truth_output": "Three-pointer USA",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_15_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_15_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 94 points for USA, output \"94\".",
+        "answer": "94",
+        "start_time": 108,
+        "end_time": 138,
+        "ground_truth_time": 144,
+        "ground_truth_output": "94",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_15_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_15_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 91 points for Serbia, output \"91\".",
+        "answer": "91",
+        "start_time": 144,
+        "end_time": 174,
+        "ground_truth_time": 156,
+        "ground_truth_output": "91",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_33_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_33_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player receives the yellow card from the dealer later, output \"Yellow card received\".",
+        "answer": "Yellow card received",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 4,
+        "ground_truth_output": "Yellow card received",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_33_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_33_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer shows the Jack of hearts, output \"Jack of hearts\".",
+        "answer": "Jack of hearts",
+        "start_time": 138,
+        "end_time": 148,
+        "ground_truth_time": 147,
+        "ground_truth_output": "Jack of hearts",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_33_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_33_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer collects all cards from the table later, output \"Cards collected\".",
+        "answer": "Cards collected",
+        "start_time": 276,
+        "end_time": 286,
+        "ground_truth_time": 285,
+        "ground_truth_output": "Cards collected",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_33_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_33_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer starts dealing cards to the players, output \"Dealing cards\".",
+        "answer": "Dealing cards",
+        "start_time": 414,
+        "end_time": 424,
+        "ground_truth_time": 405,
+        "ground_truth_output": "Dealing cards",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_33_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_33_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a player reaches for chips with his hand, output \"Player betting\".",
+        "answer": "Player betting",
+        "start_time": 552,
+        "end_time": 562,
+        "ground_truth_time": 560,
+        "ground_truth_output": "Player betting",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_44_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_44_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the lineup for Toronto FC is displayed, output \"Toronto FC lineup shown\".",
+        "answer": "Toronto FC lineup shown",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 8,
+        "ground_truth_output": "Toronto FC lineup shown",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_44_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_44_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the white jersey scores a goal, output \"Goal by white team\".",
+        "answer": "Goal by white team",
+        "start_time": 75,
+        "end_time": 85,
+        "ground_truth_time": 36,
+        "ground_truth_output": "Goal by white team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_44_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_44_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the white jersey takes a shot on goal, output \"Shot by white team\".",
+        "answer": "Shot by white team",
+        "start_time": 150,
+        "end_time": 160,
+        "ground_truth_time": 154,
+        "ground_truth_output": "Shot by white team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_44_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_44_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the white jersey attempts a cross from the left flank, output \"Cross from left flank by white team\".",
+        "answer": "Cross from left flank by white team",
+        "start_time": 225,
+        "end_time": 235,
+        "ground_truth_time": 233,
+        "ground_truth_output": "Cross from left flank by white team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_44_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_44_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the blue jersey attempts a shot on goal, output \"Shot attempted by blue team\".",
+        "answer": "Shot attempted by blue team",
+        "start_time": 300,
+        "end_time": 310,
+        "ground_truth_time": 305,
+        "ground_truth_output": "Shot attempted by blue team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_46_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_46_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the starting XI list is fully displayed, output \"Starting XI displayed\".",
+        "answer": "Starting XI displayed",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 10,
+        "ground_truth_output": "Starting XI displayed",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_46_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_46_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the light blue jersey takes a shot, output \"Shot by light blue team\".",
+        "answer": "Shot by light blue team",
+        "start_time": 121,
+        "end_time": 151,
+        "ground_truth_time": 121,
+        "ground_truth_output": "Shot by light blue team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_46_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_46_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the light blue jersey takes a shot, output \"Shot by light blue team\".",
+        "answer": "Shot by light blue team",
+        "start_time": 242,
+        "end_time": 272,
+        "ground_truth_time": 244,
+        "ground_truth_output": "Shot by light blue team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_46_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_46_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the light blue jersey scores a goal, output \"Goal by light blue team\".",
+        "answer": "Goal by light blue team",
+        "start_time": 363,
+        "end_time": 393,
+        "ground_truth_time": 382,
+        "ground_truth_output": "Goal by light blue team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_46_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_46_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the red jersey successfully takes a penalty kick, output \"Successful penalty by red team\".",
+        "answer": "Successful penalty by red team",
+        "start_time": 484,
+        "end_time": 514,
+        "ground_truth_time": 505,
+        "ground_truth_output": "Successful penalty by red team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_40_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_40_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a player starts distributing the cards, output \"distributing\".",
+        "answer": "distributing",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 10,
+        "ground_truth_output": "distributing",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_40_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_40_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a red +2 card is played later, output \"red +2\".",
+        "answer": "red +2",
+        "start_time": 73,
+        "end_time": 83,
+        "ground_truth_time": 76,
+        "ground_truth_output": "red +2",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_40_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_40_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a red 4 card is played later, output \"red 4\".",
+        "answer": "red 4",
+        "start_time": 146,
+        "end_time": 156,
+        "ground_truth_time": 157,
+        "ground_truth_output": "red 4",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_40_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_40_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a green 9 card is played later, output \"green 9\".",
+        "answer": "green 9",
+        "start_time": 219,
+        "end_time": 229,
+        "ground_truth_time": 230,
+        "ground_truth_output": "green 9",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_40_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_40_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a player places a red 7 card on the pile, output \"red 7\".",
+        "answer": "red 7",
+        "start_time": 292,
+        "end_time": 302,
+        "ground_truth_time": 305,
+        "ground_truth_output": "red 7",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_34_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_34_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the nine of diamonds appears on the screen, output \"nine of diamonds\".",
+        "answer": "nine of diamonds",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 22,
+        "ground_truth_output": "nine of diamonds",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_34_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_34_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer finishes collecting the cards from the previous round, output \"Cards collected\".",
+        "answer": "Cards collected",
+        "start_time": 161,
+        "end_time": 171,
+        "ground_truth_time": 166,
+        "ground_truth_output": "Cards collected",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_34_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_34_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When all the cards are cleared from the table later, output \"Table cleared\".",
+        "answer": "Table cleared",
+        "start_time": 322,
+        "end_time": 332,
+        "ground_truth_time": 326,
+        "ground_truth_output": "Table cleared",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_34_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_34_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer places the Three of Spades on the table, output \"Three of Spades\".",
+        "answer": "Three of Spades",
+        "start_time": 483,
+        "end_time": 493,
+        "ground_truth_time": 492,
+        "ground_truth_output": "Three of Spades",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_34_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_34_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer begins placing cards on the table later, output \"dealing cards\".",
+        "answer": "dealing cards",
+        "start_time": 644,
+        "end_time": 654,
+        "ground_truth_time": 659,
+        "ground_truth_output": "dealing cards",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_26_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_26_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When two cards are seen being dealt on the table later, output \"Three cards dealt\".",
+        "answer": "Three cards dealt",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 11,
+        "ground_truth_output": "Three cards dealt",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_26_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_26_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer starts collecting the cards from the table, output \"Dealer collecting cards\".",
+        "answer": "Dealer collecting cards",
+        "start_time": 168,
+        "end_time": 178,
+        "ground_truth_time": 173,
+        "ground_truth_output": "Dealer collecting cards",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_26_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_26_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer reveals the hidden card and it is a face card, output \"Dealer card face\".",
+        "answer": "Dealer card face",
+        "start_time": 336,
+        "end_time": 346,
+        "ground_truth_time": 344,
+        "ground_truth_output": "Dealer card face",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_26_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_26_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer's hand sweeps across the table, output \"dealer sweeping.\"",
+        "answer": "dealer sweeping",
+        "start_time": 504,
+        "end_time": 514,
+        "ground_truth_time": 512,
+        "ground_truth_output": "dealer sweeping",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_26_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_26_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer collects all the cards from the table later, output \"Cards collected\".",
+        "answer": "Cards collected",
+        "start_time": 672,
+        "end_time": 682,
+        "ground_truth_time": 680,
+        "ground_truth_output": "Cards collected",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_21_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_21_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score first shows \"Ad KORDA\" later, output \"Ad KORDA\".",
+        "answer": "Ad KORDA",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 24,
+        "ground_truth_output": "Ad KORDA",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_21_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_21_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in blue is sitting on the bench, output \"take a break\".",
+        "answer": "take a break",
+        "start_time": 145,
+        "end_time": 175,
+        "ground_truth_time": 161,
+        "ground_truth_output": "take a break",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_21_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_21_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows \"AD\" for TIAFOE , output \"Break point\".",
+        "answer": "Break point",
+        "start_time": 290,
+        "end_time": 320,
+        "ground_truth_time": 296,
+        "ground_truth_output": "Break point",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_21_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_21_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard changes to \"40\" for COBOLLI , output \"40 for COBOLLI\".",
+        "answer": "40 for COBOLLI",
+        "start_time": 435,
+        "end_time": 465,
+        "ground_truth_time": 417,
+        "ground_truth_output": "40 for COBOLLI",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_21_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_21_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows \"AD\" for COBOLLI , output \"Break point\".",
+        "answer": "Break point",
+        "start_time": 580,
+        "end_time": 610,
+        "ground_truth_time": 625,
+        "ground_truth_output": "Break point",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_16_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_16_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard changes to display 9:29, output \"Start of Possession\".",
+        "answer": "Start of Possession",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 15,
+        "ground_truth_output": "Start of Possession",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_16_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_16_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for the USA team changes to 25, output \"25\".",
+        "answer": "25",
+        "start_time": 175,
+        "end_time": 205,
+        "ground_truth_time": 185,
+        "ground_truth_output": "25",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_16_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_16_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows 42 points for the USA team and 39 points for Germany, output \"39\".",
+        "answer": "39",
+        "start_time": 350,
+        "end_time": 380,
+        "ground_truth_time": 355,
+        "ground_truth_output": "39",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_16_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_16_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard changes to 62 points for the USA, output \"62\".",
+        "answer": "62",
+        "start_time": 525,
+        "end_time": 555,
+        "ground_truth_time": 531,
+        "ground_truth_output": "62",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_16_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_16_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the number 78 appears for the Germany team, output \"78\".",
+        "answer": "78",
+        "start_time": 700,
+        "end_time": 730,
+        "ground_truth_time": 708,
+        "ground_truth_output": "78",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_1_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_1_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the number 20 appears in the middle of the sun in the video, output \"20\"",
+        "answer": "20",
+        "start_time": 0,
+        "end_time": 60,
+        "ground_truth_time": 62,
+        "ground_truth_output": "20",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_1_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_1_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the number 20 in red appears in the video, output \"20\".",
+        "answer": "20",
+        "start_time": 60,
+        "end_time": 120,
+        "ground_truth_time": 124,
+        "ground_truth_output": "20",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_1_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_1_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When 7 potatoes appear in the video, output \"7\".",
+        "answer": "7",
+        "start_time": 120,
+        "end_time": 180,
+        "ground_truth_time": 182,
+        "ground_truth_output": "7",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_1_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_1_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When there are only 5 teddy bears left on the bed, output \"5\".",
+        "answer": "5",
+        "start_time": 360,
+        "end_time": 420,
+        "ground_truth_time": 430,
+        "ground_truth_output": "5",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_1_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_1_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a total of 5 cartoon characters wearing hats have appeared in the video, output \"5.\"",
+        "answer": "5",
+        "start_time": 600,
+        "end_time": 660,
+        "ground_truth_time": 652,
+        "ground_truth_output": "5",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_10_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_10_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player hits the ball with his cue stick, output \"Ball Hit\".",
+        "answer": "Ball Hit",
+        "start_time": 0,
+        "end_time": 20,
+        "ground_truth_time": 16,
+        "ground_truth_output": "Ball Hit",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_10_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_10_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for O'Sullivan changes to 24, output \"24\".",
+        "answer": "24",
+        "start_time": 106,
+        "end_time": 126,
+        "ground_truth_time": 121,
+        "ground_truth_output": "24",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_10_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_10_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When O'Sullivan's break score changes to 49, output \"49\".",
+        "answer": "49",
+        "start_time": 212,
+        "end_time": 232,
+        "ground_truth_time": 217,
+        "ground_truth_output": "49",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_10_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_10_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for O'Sullivan changes to 89, output \"89\".",
+        "answer": "89",
+        "start_time": 318,
+        "end_time": 338,
+        "ground_truth_time": 329,
+        "ground_truth_output": "89",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_10_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_10_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for Ronnie O'Sullivan changes to 129, output \"129\".",
+        "answer": "129",
+        "start_time": 424,
+        "end_time": 444,
+        "ground_truth_time": 443,
+        "ground_truth_output": "129",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_2_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_2_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the red nine appears on the table for the first time, output \"Red nine\".",
+        "answer": "Red nine",
+        "start_time": 0,
+        "end_time": 60,
+        "ground_truth_time": 13,
+        "ground_truth_output": "Red nine",
+        "task_type": "Proactive Output"
+      },
+      {
+        "question": "When the red four appears on the table again, output \"Red four\" ",
+        "answer": "Red four",
+        "start_time": 0,
+        "end_time": 60,
+        "ground_truth_time": 58,
+        "ground_truth_output": "Red four",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_2_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_2_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When five red cards appear on the table at the same time, output \"red 5\".",
+        "answer": "red 5",
+        "start_time": 540,
+        "end_time": 600,
+        "ground_truth_time": 584,
+        "ground_truth_output": "red 5",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_2_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_2_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When three red cards appear on the table at the same time, output \"red 3\".",
+        "answer": "red 3",
+        "start_time": 660,
+        "end_time": 720,
+        "ground_truth_time": 728,
+        "ground_truth_output": "red 3",
+        "task_type": "Proactive Output"
+      },
+      {
+        "question": "When five black cards appear on the table at the same time, output \"black 5\".",
+        "answer": "black 5",
+        "start_time": 660,
+        "end_time": 720,
+        "ground_truth_time": 767,
+        "ground_truth_output": "black 5",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_47_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_47_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the match kicks off, output \"Match started\".",
+        "answer": "Match started",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 22,
+        "ground_truth_output": "Match started",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_47_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_47_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the blue jersey takes a corner kick, output \"Corner kick by blue team\".",
+        "answer": "Corner kick by blue team",
+        "start_time": 88,
+        "end_time": 118,
+        "ground_truth_time": 91,
+        "ground_truth_output": "Corner kick by blue team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_47_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_47_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the goalkeeper makes a diving save, output \"Diving save by goalkeeper\".",
+        "answer": "Diving save by goalkeeper",
+        "start_time": 176,
+        "end_time": 206,
+        "ground_truth_time": 158,
+        "ground_truth_output": "Diving save by goalkeeper",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_47_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_47_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the light blue jersey scores a goal, output \"Goal by light blue team\".",
+        "answer": "Goal by light blue team",
+        "start_time": 264,
+        "end_time": 294,
+        "ground_truth_time": 251,
+        "ground_truth_output": "Goal by light blue team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_47_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_47_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the goalkeeper makes a successful save, output \"Successful save by goalkeeper\".",
+        "answer": "Successful save by goalkeeper",
+        "start_time": 352,
+        "end_time": 382,
+        "ground_truth_time": 358,
+        "ground_truth_output": "Successful save by goalkeeper",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_20_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_20_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows \"Auger-Aliassime 40\" later, output \"40\".",
+        "answer": "40",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 14,
+        "ground_truth_output": "40",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_20_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_20_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows \"RUBLEV 40\" later, output \"40\".",
+        "answer": "40",
+        "start_time": 97,
+        "end_time": 127,
+        "ground_truth_time": 144,
+        "ground_truth_output": "40",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_20_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_20_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows \"RUBLEV 30\" later, output \"30\".",
+        "answer": "30",
+        "start_time": 194,
+        "end_time": 224,
+        "ground_truth_time": 258,
+        "ground_truth_output": "30",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_20_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_20_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the scoreboard shows \"Auger-AliassimeV AD\" later, output \"Auger-AliassimeV AD\".",
+        "answer": "Auger-AliassimeV AD",
+        "start_time": 291,
+        "end_time": 321,
+        "ground_truth_time": 290,
+        "ground_truth_output": "Auger-AliassimeV AD",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_20_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_20_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score on the board shows \"40\" for Auger-Aliassime later, output \"40\".",
+        "answer": "40",
+        "start_time": 388,
+        "end_time": 418,
+        "ground_truth_time": 407,
+        "ground_truth_output": "40",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_11_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_11_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the text \"WELSH OPEN\" appears at the bottom of the screen, output \"WELSH OPEN\".",
+        "answer": "WELSH OPEN",
+        "start_time": 0,
+        "end_time": 20,
+        "ground_truth_time": 6,
+        "ground_truth_output": "WELSH OPEN",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_11_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_11_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for SAENGKHAM changes to 16, output \"16\".",
+        "answer": "16",
+        "start_time": 213,
+        "end_time": 233,
+        "ground_truth_time": 222,
+        "ground_truth_output": "16",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_11_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_11_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player strike the black ball with the cue, output \"Black Strike\".",
+        "answer": "Black Strike",
+        "start_time": 426,
+        "end_time": 446,
+        "ground_truth_time": 447,
+        "ground_truth_output": "Black Strike",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_11_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_11_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Saengkham's break score reaches 80, output \"80\".",
+        "answer": "80",
+        "start_time": 639,
+        "end_time": 659,
+        "ground_truth_time": 657,
+        "ground_truth_output": "80",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_11_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_11_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Saengkham's score changes to 112, output \"Score 112\".",
+        "answer": "Score 112",
+        "start_time": 852,
+        "end_time": 872,
+        "ground_truth_time": 857,
+        "ground_truth_output": "Score 112",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_29_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_29_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer reveals an 8 of diamonds later, output \"8 of diamonds\".",
+        "answer": "8 of diamonds",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 29,
+        "ground_truth_output": "8 of diamonds",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_29_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_29_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer reveals an 8 of diamonds later, output \"8 of diamonds\".",
+        "answer": "8 of diamonds",
+        "start_time": 169,
+        "end_time": 179,
+        "ground_truth_time": 175,
+        "ground_truth_output": "8 of diamonds",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_29_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_29_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer collects all the cards from the table later, output \"Cards collected\".",
+        "answer": "Cards collected",
+        "start_time": 338,
+        "end_time": 348,
+        "ground_truth_time": 347,
+        "ground_truth_output": "Cards collected",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_29_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_29_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer collects all the cards from the table later, output \"Cards collected\".",
+        "answer": "Cards collected",
+        "start_time": 507,
+        "end_time": 517,
+        "ground_truth_time": 516,
+        "ground_truth_output": "Cards collected",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_29_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_29_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the Jack of spades appears on the table later, output \"Jack of spades\".",
+        "answer": "Jack of spades",
+        "start_time": 676,
+        "end_time": 686,
+        "ground_truth_time": 691,
+        "ground_truth_output": "Jack of spades",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_30_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_30_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the dealer starts taking out the cards from the shoe, output \"Cards dealt\".",
+        "answer": "Cards dealt",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 7,
+        "ground_truth_output": "Cards dealt",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_30_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_30_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When five of clubs is revealed, output \"Five of clubs\".",
+        "answer": "Five of clubs",
+        "start_time": 148,
+        "end_time": 158,
+        "ground_truth_time": 151,
+        "ground_truth_output": "Five of clubs",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_30_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_30_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When there are eight cards on the table, output \"eight cards\".",
+        "answer": "eight cards",
+        "start_time": 296,
+        "end_time": 306,
+        "ground_truth_time": 300,
+        "ground_truth_output": "eight cards",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_30_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_30_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the 9 of diamonds appears on the table later, output \"9 of diamonds\".",
+        "answer": "9 of diamonds",
+        "start_time": 444,
+        "end_time": 454,
+        "ground_truth_time": 449,
+        "ground_truth_output": "9 of diamonds",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_30_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_30_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the 9 of diamonds appears on the table later, output \"9 of diamonds\".",
+        "answer": "9 of diamonds",
+        "start_time": 592,
+        "end_time": 602,
+        "ground_truth_time": 611,
+        "ground_truth_output": "9 of diamonds",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_37_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_37_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a player picks up the deck of UNO cards, output \"deck picked\".",
+        "answer": "deck picked",
+        "start_time": 0,
+        "end_time": 10,
+        "ground_truth_time": 9,
+        "ground_truth_output": "deck picked",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_37_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_37_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a green 9 card is played, output \"green 9\".",
+        "answer": "green 9",
+        "start_time": 113,
+        "end_time": 123,
+        "ground_truth_time": 131,
+        "ground_truth_output": "green 9",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_37_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_37_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a green skip card is played later, output \"green reverse\".",
+        "answer": "green reverse",
+        "start_time": 226,
+        "end_time": 236,
+        "ground_truth_time": 237,
+        "ground_truth_output": "green reverse",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_37_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_37_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the green 2 card is played, output \"green 2\".",
+        "answer": "green 2",
+        "start_time": 339,
+        "end_time": 349,
+        "ground_truth_time": 347,
+        "ground_truth_output": "green 2",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_37_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_37_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a red 8 card is played later, output \"red 8\".",
+        "answer": "red 8",
+        "start_time": 452,
+        "end_time": 462,
+        "ground_truth_time": 457,
+        "ground_truth_output": "red 8",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_7_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_7_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the cue ball touches the first red ball, output \"First Red Touch\".",
+        "answer": "First Red Touch",
+        "start_time": 0,
+        "end_time": 20,
+        "ground_truth_time": 13,
+        "ground_truth_output": "First Red Touch",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_7_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_7_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Selby's score changes to 25, output \"25\".",
+        "answer": "25",
+        "start_time": 170,
+        "end_time": 190,
+        "ground_truth_time": 185,
+        "ground_truth_output": "25",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_7_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_7_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Selby's score reaches 64, output \"64\".",
+        "answer": "64",
+        "start_time": 340,
+        "end_time": 360,
+        "ground_truth_time": 356,
+        "ground_truth_output": "64",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_7_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_7_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When Selby's score changes to 97, output \"97\".",
+        "answer": "97",
+        "start_time": 510,
+        "end_time": 530,
+        "ground_truth_time": 526,
+        "ground_truth_output": "97",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_7_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_7_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the score for Selby changes to 129, output \"129\".",
+        "answer": "129",
+        "start_time": 680,
+        "end_time": 700,
+        "ground_truth_time": 685,
+        "ground_truth_output": "129",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_45_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_45_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the referee blows the whistle to start the match, output \"Match starts\".",
+        "answer": "Match starts",
+        "start_time": 0,
+        "end_time": 30,
+        "ground_truth_time": 25,
+        "ground_truth_output": "Match starts",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_45_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_45_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a goal is scored by the team in the yellow jerseys, output \"Goal by yellow team\".",
+        "answer": "Goal by yellow team",
+        "start_time": 88,
+        "end_time": 118,
+        "ground_truth_time": 58,
+        "ground_truth_output": "Goal by yellow team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_45_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_45_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the maroon jersey scores a goal, output \"Goal by maroon team\".",
+        "answer": "Goal by maroon team",
+        "start_time": 176,
+        "end_time": 206,
+        "ground_truth_time": 148,
+        "ground_truth_output": "Goal by maroon team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_45_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_45_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When a goal is scored by the team in the yellow jerseys, output \"Goal by yellow team\".",
+        "answer": "Goal by yellow team",
+        "start_time": 264,
+        "end_time": 294,
+        "ground_truth_time": 250,
+        "ground_truth_output": "Goal by yellow team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  },
+  {
+    "video_id": "sample_45_proactive",
+    "video_path": "data/streamingbench/StreamingBench/src/data/videos/sample_45_proactive.mp4",
+    "conversations": [
+      {
+        "question": "When the player in the maroon jersey scores a goal, output \"Goal by maroon team\".",
+        "answer": "Goal by maroon team",
+        "start_time": 352,
+        "end_time": 382,
+        "ground_truth_time": 372,
+        "ground_truth_output": "Goal by maroon team",
+        "task_type": "Proactive Output"
+      }
+    ]
+  }
+]

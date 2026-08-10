@@ -1,0 +1,45 @@
+# StreamKV release .gitignore — strict allowlist.
+# Everything is ignored by default; only the release-scoped paths below are re-allowed.
+# Large working-tree artifacts (custom transformers/ fork, downloaded checkpoints, the
+# StreamingBench video clone, logs, build artifacts) are never tracked.
+
+# ignore everything by default
+*
+
+# release-allowlisted top-level files
+!.gitignore
+!README.md
+!prepare.sh
+!run_eval.sh
+!pyproject.toml
+
+# release-allowlisted source trees
+!model/
+!model/**
+!video_qa/
+!video_qa/**
+!data/
+!data/streamingbench/
+!data/streamingbench/**
+
+# keep these dirs present-but-empty in git (placeholder .gitkeep; content ignored)
+!model_zoo/
+model_zoo/*
+!model_zoo/.gitkeep
+!results/
+results/*
+!results/.gitkeep
+# data/streamingbench/StreamingBench/ is the official StreamingBench clone (nested git
+# repo, ~378G videos) — never tracked; users clone it there per README. Ignored as a dir
+# so git doesn't stage it as a gitlink.
+data/streamingbench/StreamingBench/
+
+# within allowed trees, still drop generated artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.so
+
+# logs / temp
+*.log
+segment.txt
